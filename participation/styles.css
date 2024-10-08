@@ -1,5 +1,6 @@
 body {
     background-color: 387478;
-    
-    background-repeat: repeat;
+    background-image: url(syracuse.png);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
 }
