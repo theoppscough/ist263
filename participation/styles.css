@@ -4,3 +4,4 @@ body {
     background-repeat: repeat-x;
     background-repeat: repeat-y;
 }
+p {border-color: blue;}
