@@ -1,8 +1,6 @@
 body {
-    background-color: 387478;
-    background-image: url('../images/syracuse.png');
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
+    background-image: url(../images/syracuse.png);
+    background-repeat: repeat;
 }
-p {border-color: blue;}
-p {border: 2px solid;}
+p {background-color: blue;}
+p {border: 2px solid purple;}
