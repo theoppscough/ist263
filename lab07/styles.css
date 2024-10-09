@@ -24,5 +24,5 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(98, 149, 132);
+    background-color: rgb(98, 149, 132);
 }
