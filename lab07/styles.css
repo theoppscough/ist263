@@ -17,6 +17,8 @@ h1, h2, h3 {
 
 nav {
     background-color: rgb(56, 116, 120);
+    margin-bottom: 30px;
+    padding: 10px
 }
 
 nav a {
