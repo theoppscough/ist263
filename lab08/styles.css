@@ -31,8 +31,13 @@ nav a:hover {
 
 footer {
     text-align: left;
+    overflow: auto;
 }
 
 .float-right {
     float: right;
+}
+
+.float-left {
+    float: left;
 }
