@@ -46,3 +46,59 @@ footer p {
 .float-left {
     float: left;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+body.contact-page {
+    margin: 0 20px;
+}
+
+.row + .row {
+    margin-top: 20px;
+}
+
+.column p, .column form {
+    margin: 0;
+    padding: 10px;
+}
+
+.column iframe {
+    width: 100%;
+    height: auto;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.address, .contact-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.contact-info img {
+    margin-right: 10px;
+    vertical-align: middle;
+}

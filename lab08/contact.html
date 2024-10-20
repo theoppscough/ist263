@@ -7,50 +7,61 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body>
+    <body class="contact-page">
         <nav>
             <a href="../lab08/index.html">Home</a> |
             <a href="../lab08/skills.html">Skills</a> |
             <a href="../lab08/contact.html">Contact</a>
         </nav>
         <h1>Contact</h1>
-        <p>
-        Kevin Ochoa<br>
-        900 S Crouse Ave<br>
-        Syracuse, NY 13244<br>
+
+        <div class="info-box">
+            <div class="address">
+                <p>
+                    <strong>Address</strong><br>
+                    <br>
+                    Kevin Ochoa<br>
+                    900 S Crouse Ave<br>
+                    Syracuse, NY 13244<br>
+                </p>
+            </div>
+            <div class="contact-info">
+                <p>
+                    <a href="malito:kochoagu@syr.edu">kochoagu@syr.edu</a><br>
+                    <img src="../images/logo-sized.png" alt="LinkedInLogo" style="width:25px;height:25px;">
+                    <a href="https://www.linkedin.com/in/kevin-ochoa-0b6100239/" target="_blank">My LinkedIn Profile</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <form action="https://formspree.io/f/xgvwjoaa" method="post">
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                    </p>
+                    <p>
+                        What is your preferred method of contact?<br>
+                        <input type="checkbox" id="choice1" name="choice1" value="email">
+                        <label for="choice1">Email</label><br>
+                        <input type="checkbox" id="choice2" name="choice2" value="phone">
+                        <label for="choice2">Phone Call</label><br>
+                    </p>
+                    <p>
+                        <label for="contact">Contact and Time Preferrence:</label><br>
+                        <textarea id="contact" name="contactreview" rows="4" cols="50">Contact information and preferred time of day for contact.
+                        </textarea><br>
+                        <input type="submit" value="Submit">
+                        <br>
+                    </p>
+                </form></div>
+            <div class="column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.055749770978!2d-76.13695229999995!3d43.040258500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1726098653017!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
         <br>
-        <a href="malito:kochoagu@syr.edu">kochoagu@syr.edu</a><br>
-        <br>
-        <img src="../images/logo-sized.png" alt="LinkedInLogo" style="width:75px;height:75px;">
-        <a href="https://www.linkedin.com/in/kevin-ochoa-0b6100239/" target="_blank">My LinkedIn Profile</a>
-        <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.055749770978!2d-76.13695229999995!3d43.040258500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1726098653017!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </p>
-        <br>
-        <br>
-        If you wish, I can contact you on providing real-time information.<br>
-        Feel free to fill out this survey.
-        <br>
-        <form action="https://formspree.io/f/xgvwjoaa" method="post">
-            <p>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-            </p>
-            <p>
-                What is your preferred method of contact?<br>
-                <input type="checkbox" id="choice1" name="choice1" value="email">
-                <label for="choice1">Email</label><br>
-                <input type="checkbox" id="choice2" name="choice2" value="phone">
-                <label for="choice2">Phone Call</label><br>
-            </p>
-            <p>
-                <label for="contact">Contact and Time Preferrence:</label><br>
-                <textarea id="contact" name="contactreview" rows="4" cols="50">Contact information and preferred time of day for contact.
-                </textarea><br>
-                <input type="submit" value="Submit">
-                <br>
-            </p>
-        </form>
         <hr>
         <footer>
             <p class="float-left">&copy; 2024</p>
