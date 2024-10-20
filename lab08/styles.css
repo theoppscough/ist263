@@ -28,3 +28,11 @@ nav a {
 nav a:hover {
     background-color: rgb(98, 149, 132);
 }
+
+footer {
+    text-align: left;
+}
+
+.float-right {
+    float: right;
+}
