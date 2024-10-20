@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(226, 241, 231);
+    color: rgb(36, 54, 66);
+}
+
+a {
+    color: rgb(56, 116, 120);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: rgb(36, 54, 66);
+}
+
+nav {
+    background-color: rgb(56, 116, 120);
+    margin-bottom: 30px;
+    padding: 10px
+}
+
+nav a {
+    color: rgb(226, 241, 231);
+}
+
+nav a:hover {
+    background-color: rgb(98, 149, 132);
+}
