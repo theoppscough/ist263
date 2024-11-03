@@ -49,6 +49,7 @@ footer p {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
 }
@@ -120,4 +121,19 @@ form p {
 .responsive-img {
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    nav span {
+        display: none;
+    }
+    nav a:not(:last-child) {
+        margin-bottom: 5px;
+    }
 }
