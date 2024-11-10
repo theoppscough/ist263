@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lab 11</title>
-        <link rel="stylesheet" href="https://laferger.github.io/ist263/images/animate2.css">
+        <link rel="stylesheet" href="https://laferger.github.io/ist263/images/animate.css">
         <script>
             function WinnerMessage() {
                 document.getElementById("message").innerHTML = 'You Won!';
@@ -18,9 +18,7 @@
             }
         </script>
         <style>
-            .container {
-                display: flex;
-            }
+            .container { display: flex;}
             #first {order: 1;}
             #second {order: 2;}
             #third {order: 3;}
@@ -29,9 +27,9 @@
     <body onload="ShuffleShells();">
         <h1>Choose a Walnut</h1>
             <div class="container">
-                <img src="https://laferger.github.io/ist263/images/walnut.png" alt="first" onclick="WinnerMessage();">
-                <img src="https://laferger.github.io/ist263/images/walnut.png" alt="second" onclick="TryAgain();">
-                <img src="https://laferger.github.io/ist263/images/walnut.png" alt="third" onclick="TryAgain();">
+                <img src="https://laferger.github.io/ist263/images/walnut.png" alt="first" id="first" onclick="WinnerMessage();">
+                <img src="https://laferger.github.io/ist263/images/walnut.png" alt="second" id="second" onclick="TryAgain();">
+                <img src="https://laferger.github.io/ist263/images/walnut.png" alt="third" id="third" onclick="TryAgain();">
             </div>
             <div id="message"></div>
     </body>
