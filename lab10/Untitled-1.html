@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sliding Navigation Menu</title>
+<style>
+  /* Basic styling for navigation bar */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    position: relative;
+    float: left;
+  }
+  .navbar > ul > li > a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  .navbar li a:hover {
+    background-color: #555;
+  }
+
+  /* Submenu styling */
+  .submenu, .submenu2 {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 200px;
+    left: 100%; /* Place submenu to the right of parent */
+    top: 0;
+  }
+
+  /* First level submenu */
+  .navbar li:hover > .submenu {
+    display: block;
+  }
+
+  /* Second level submenu */
+  .submenu li:hover > .submenu2 {
+    display: block;
+  }
+
+  /* Link styles for submenu */
+  .submenu a, .submenu2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .submenu a:hover, .submenu2 a:hover {
+    background-color: #555;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Cars</a>
+      <ul class="submenu">
+        <li><a href="#">Car Model 1</a>
+          <ul class="submenu2">
+            <li><a href="#">Trim</a></li>
+            <li><a href="#">In-depth Info</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Car Model 2</a>
+          <ul class="submenu2">
+            <li><a href="#">Trim</a></li>
+            <li><a href="#">In-depth Info</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Car Model 3</a>
+          <ul class="submenu2">
+            <li><a href="#">Trim</a></li>
+            <li><a href="#">In-depth Info</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
