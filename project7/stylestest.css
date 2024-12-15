@@ -1,4 +1,4 @@
-/* General Styles */
+/* general Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* Header */
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -49,6 +49,21 @@ nav a {
 /* Main Content */
 main {
     padding: 2em;
+}
+
+.welcome {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .welcome h2 {
@@ -215,3 +230,4 @@ footer {
     font-size: 0.8em;
     color: #bbb;
 }
+
