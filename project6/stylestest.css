@@ -51,6 +51,11 @@ main {
     padding: 2em;
 }
 
+.trim-title {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
 .welcome h2 {
     font-size: 2em;
     margin-bottom: 1em;
@@ -156,7 +161,7 @@ main {
 }
 
 .trim-level h2 {
-    color: #d71921;
+    color: black;
 }
 
 .trim-level p {
@@ -169,7 +174,7 @@ main {
 }
 
 .features li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .price {
